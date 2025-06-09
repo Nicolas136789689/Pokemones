@@ -1,0 +1,89 @@
+.pokemon-detail {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #2F2F2F;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.pokemon-detail img {
+  width: 150px;
+  height: 150px;
+}
+
+.pokemon-detail h2 {
+  color: #FFFFFF;
+}
+
+.pokemon-detail p {
+  color: #CCCCCC;
+  margin: 10px 0;
+}
+
+.attacks-section {
+  margin-top: 20px;
+}
+
+.attacks-section h3 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.attacks-section ul {
+  list-style: none;
+  padding: 0;
+  color: #CCCCCC;
+}
+
+.attacks-section li {
+  margin: 5px 0;
+}
+
+.special-section {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #3A3A3A;
+  border-radius: 5px;
+}
+
+.special-section h3 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.special-section p {
+  color: #CCCCCC;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: #4682B4;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.nav-button:hover:not(:disabled) {
+  transform: scale(1.1);
+}
+
+.nav-button:disabled {
+  background-color: #CCCCCC;
+  cursor: not-allowed;
+}
+
+.loading {
+  color: #FFFFFF;
+  font-size: 1.2em;
+}
